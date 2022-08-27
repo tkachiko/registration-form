@@ -12,41 +12,38 @@
     <p>Please fill out this form with the required information</p>
     <form action="https://register-demo.freecodecamp.org">
       <fieldset>
-        <label for=""
+        <label
           >Enter Your First Name: <input type="text" name="first-name" required
         /></label>
-        <label for=""
+        <label
           >Enter Your Last Name: <input type="text" name="last-name" required
         /></label>
-        <label for="">Enter Your Email: <input type="email" name="email" required /></label>
-        <label for=""
+        <label>Enter Your Email: <input type="email" name="email" required /></label>
+        <label
           >Create a New Password:
           <input type="password" name="password" pattern="[a-z0-5]{8,}" required
         /></label>
       </fieldset>
       <fieldset>
-        <label for="">
-          <input type="radio" name="account-type" id="" /> Personal Account
+        <label>
+          <input type="radio" name="account-type" class="inline" id="" /> Personal Account
         </label>
-        <label for=""></label>
-        <input type="radio" name="account-type" id="" /> Business Account
-        <label for="">
-          <input type="checkbox" name="checkbox" id="" required /> I accept the
+        <label></label>
+        <input type="radio" name="account-type" class="inline" id="" /> Business Account
+        <label>
+          <input type="checkbox" name="terms" class="inline" id="" required /> I accept the
           <a href="https://www.freecodecamp.org/news/terms-of-service/"
             >terms and conditions</a
           >
         </label>
       </fieldset>
       <fieldset>
-        <label for=""
-          >Upload a profile picture: <input type="file" name="file" id=""
+        <label>Upload a profile picture: <input type="file" name="file" id=""
         /></label>
-        <label for=""
-          >Input your age (years):
+        <label>Input your age (years):
           <input type="number" min="13" max="120" name="age" id=""
         /></label>
-        <label for=""
-          >How did you hear about us?
+        <label>How did you hear about us?
           <select name="selection" id="">
             <option value="">(select one)</option>
             <option value="1">freeCodeCamp News</option>
@@ -55,8 +52,7 @@
             <option value="4">Other</option>
           </select>
         </label>
-        <label for=""
-          >Provide a bio:
+        <label>Provide a bio:
           <textarea
             rows="3"
             cols="30"
